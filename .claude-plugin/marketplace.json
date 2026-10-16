@@ -1,0 +1,6 @@
+{
+  "name": "claude-copy-box",
+  "description": "copy-box: copy-ready text in a box with Copy, Copy for Slack and browser preview buttons",
+  "owner": { "name": "mackenzieholtzmann" },
+  "plugins": [{ "name": "copy-box", "source": "./" }]
+}

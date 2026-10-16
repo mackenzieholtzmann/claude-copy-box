@@ -1,0 +1,23 @@
+{
+  "name": "copy-box",
+  "version": "0.1.0",
+  "description": "Copy-ready text in a box with Copy, Copy for Slack and Preview in browser buttons, plus Raw / Preview tabs for markdown",
+  "author": { "name": "mackenzieholtzmann" },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "color": {
+      "type": "string",
+      "title": "Copy box color",
+      "description": "The color of the copy box border, tabs and divider. lavender follows your theme's inline code color.",
+      "default": "lavender",
+      "options": ["lavender", "aqua", "grey", "orange", "green"]
+    },
+    "browser": {
+      "type": "string",
+      "title": "Preview browser",
+      "description": "The browser the Preview in button opens markdown boxes in.",
+      "default": "Google Chrome",
+      "options": ["Google Chrome", "Firefox", "Firefox Nightly", "Firefox Developer Edition", "Safari"]
+    }
+  }
+}
