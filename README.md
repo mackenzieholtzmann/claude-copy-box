@@ -1,4 +1,4 @@
-# copy-box
+# Claude Copy Box Mod
 
 A Claude Code mod that puts copy-ready text in a box with a Copy button. Commands, commit messages and PR descriptions copy exactly as written, with no stray line breaks from your window width.
 
@@ -33,14 +33,43 @@ From a shell instead:
 claude plugin install copy-box --marketplace mackenzieholtzmann/claude-copy-box
 ```
 
-If the repository is private, you need access to it on GitHub, and your machine needs a GitHub credential already set up (an SSH key, or `gh auth login` then `gh auth setup-git`).
-
 ## Settings
 
 Set during install, and changeable any time in `/config`.
 
 - **Copy box color:** lavender (default, follows your theme's inline code color), aqua, grey, orange or green
 - **Preview browser:** Google Chrome (default), Firefox, Firefox Nightly, Firefox Developer Edition or Safari
+
+## A quick look
+
+### A plain copy box
+Commands, commit messages and code snippets get a box with a **Copy** button.
+<img width="1305" height="168" alt="Screenshot 1151" src="https://github.com/user-attachments/assets/88d6c225-e926-49cd-93b2-57e599af930f" />
+
+
+### A markdown copy box
+PR descriptions and Slack posts get **Raw** and **Preview** tabs, plus **Preview in (your browser)** and **Copy for Slack**.
+
+<img width="1551" height="751" alt="Screenshot 1156" src="https://github.com/user-attachments/assets/d3e0143d-11d3-4ade-95c9-a8eff413da8a" />
+
+
+### The Preview tab
+The markdown drawn right in the terminal.
+
+<img width="1564" height="754" alt="claude-copy-box" src="https://github.com/user-attachments/assets/bf8763a6-1b65-48aa-a287-c3490d4dcb67" />
+
+
+### Preview in your browser
+The same markdown as a GitHub-styled page.
+
+<img width="1200" height="auto" alt="firefox-copy-box" src="https://github.com/user-attachments/assets/3a74b5e6-0087-4156-9e1c-7dc1014b2d3a" />
+
+
+### Copy for Slack
+Pasted into Slack with the formatting intact.
+
+<img width="1200" height="auto" alt="claude-copy-slack" src="https://github.com/user-attachments/assets/5995a589-5678-4b31-9727-21810ec5c430" />
+
 
 ## Requirements
 
