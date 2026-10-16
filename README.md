@@ -1,6 +1,6 @@
 # Claude Copy Box Mod
 
-A Claude Code mod that puts copy-ready text in a box with a Copy button. Commands, commit messages and PR descriptions copy exactly as written, with no stray line breaks from your window width.
+A Claude Code mod that puts copy-ready text in a box with a Copy button.
 
 ## What you get
 
